@@ -1,0 +1,113 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1:hover {
+  color: #D2042D;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: .5rem;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #D2042D;
+  color: #fff;
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #D2042D;
+  color: #fff;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+strong {
+  color: #D2042D;
+}
+img {
+ margin: auto;
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+footer {
+  margin-top: 40px;
+}
+footer .thefooter {
+  text-align: center;
+}
+
+footer .footer-copyright {
+  display: block;
+  padding-left: 90%;
+  color: grey;
+}
+.cherry-cursor {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><text y="16" font-size="16">🍒</text></svg>') 10 10, auto;
+}
